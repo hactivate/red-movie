@@ -1,3 +1,49 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+.card-poster {
+  height: 23rem;
+  object-fit: cover;
+}
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+.section {
+  padding: 4.5rem 0 1rem;
+}
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+}
+
+.hero__data {
+  max-width: 60%;
+}
+
+.hero__img {
+  max-width: 40%;
+}
+
+.hero__title {
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+.hero__description {
+  max-width: 70%;
+  color: #d5d2d2;
+}
+
+.button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  transition: background-color 0.3s;
+}
